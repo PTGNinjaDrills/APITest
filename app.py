@@ -192,7 +192,7 @@ def admin():
 
 @app.route('/TrackUsers', methods=['GET'])
 def TrackUsers():
-   url = "https://prod-138.westeurope.logic.azure.com:443/workflows/64cd242a3de74203b257a4ba5d25cb10/triggers/manual/paths/invoke?api-version=2016-10-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=SY27BzE8Rnrpu0Fc1iKdskfBB3VzO3DkUrpHVrbQ3JY"
+   url = "https://prod-13.eastus.logic.azure.com:443/workflows/d6f0eb7b62034f4ab1b6da2b16474007/triggers/manual/paths/invoke?api-version=2016-10-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=3SUWOWEdOgxtJdBYr1lS3gzvT3SoR5NQWvVb3tiZVYQ"
 
    payload = {}
    headers = {}
