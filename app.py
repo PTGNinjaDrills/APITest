@@ -85,7 +85,7 @@ def search():
         
         dicofDics = {}
         dicofounded = {}
-        url = "https://prod-31.westeurope.logic.azure.com:443/workflows/0b121fa521f04f0aa6185a49dce36fa5/triggers/request/paths/invoke?api-version=2016-10-01&sp=%2Ftriggers%2Frequest%2Frun&sv=1.0&sig=TJ5tk6JKlHQL4rqpaohEWe_zs1MLyL-nlQX7kCLwdQY"
+        url = "https://prod-91.eastus.logic.azure.com:443/workflows/ca2b3a6726f54104819c01f8994c33eb/triggers/manual/paths/invoke?api-version=2016-10-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=VLnUp6vLG-5qTpr3cj4CnS8xuY70FFtviLR8K0Ltxps"
 
         payload={}
         headers = {}
