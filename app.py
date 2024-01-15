@@ -45,7 +45,7 @@ def hello():
    time = request.form.get('time')
    selectedElement = request.form.get('selectedElement')
 
-   url = "https://prod-116.westeurope.logic.azure.com:443/workflows/b5ec6624f9134978ac2a6674f7250589/triggers/manual/paths/invoke?api-version=2016-10-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=It5HnPQGqTARWURkkRlJGQGwCOy98VxeUYcShEXXc9k"
+   url = "https://prod-56.eastus.logic.azure.com:443/workflows/657382f82636425281750aaf87759eb0/triggers/manual/paths/invoke?api-version=2016-10-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=RGX97eAJbFSMR4dzfeMXThzwNfbAnxBeyMYWq1rSYPo"
 
    payload = json.dumps({
    "name": name,
